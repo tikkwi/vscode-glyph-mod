@@ -4,10 +4,10 @@ A modern and comprehensive icon theme for VS Code that provides beautiful icons 
 
 ## Features
 
-- 🎨 **Modern Design**: Clean and minimal SVG icons
-- 🚀 **Dynamic Generation**: Icon theme JSON is generated dynamically from constants
-- 📁 **Comprehensive Coverage**: Supports 140+ file extensions, 50+ file names, and 12+ language IDs
-- 🔄 **Easy Maintenance**: Add new icons by updating constants and regenerating
+
+---
+
+**This is the simplest implementation for a VS Code icon theme, based on the icons from [lewxdev/vscode-glyph](https://github.com/lewxdev/vscode-glyph).**
 
 ## Supported File Types
 
