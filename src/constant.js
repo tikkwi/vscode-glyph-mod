@@ -49,11 +49,6 @@ export const EIcon = {
 };
 
 export const THEME = {
-    [EIcon.Angular]: {
-        fileExtensions: "ts,js",
-        fileNames: "angular.json,.angular-cli.json,angular-cli.json",
-        languageIds: "typescript",
-    },
     [EIcon.Archive]: {
         fileExtensions: "7z,br,brotli,bzip2,gz,gzip,rar,tar,tgz,xz,zip",
     },
@@ -115,6 +110,11 @@ export const THEME = {
         fileExtensions: "log",
         fileNames: "readme{,.md,.txt}",
     },
+    [EIcon.Test]: {
+        fileExtensions:
+            "e2e-spec.js,e2e-spec.ts,spec.js,spec.ts,test.js,test.ts,test.tsx,test.jsx,spec.jsx,spec.tsx",
+        // "e2e-spec.{js,ts},{js,jsx,ts,tsx}.snap,{spec,test}.{js,jsx,ts,tsx}",
+    },
     [EIcon.Javascript]: {
         fileExtensions: "js,mjs,cjs",
         languageIds: "javascript,javascriptreact",
@@ -159,14 +159,13 @@ export const THEME = {
     },
     [EIcon.Table]: { fileExtensions: "csv,tsv,xls,xlsx" },
     [EIcon.Tag]: { fileExtensions: "css,less,sass,scss,styl" },
-    [EIcon.Test]: {
-        fileExtensions:
-            "e2e-spec.{js,ts},{js,jsx,ts,tsx}.snap,{spec,test}.{js,jsx,ts,tsx}",
-    },
     [EIcon.Triangle]: { fileExtensions: "delta,diff,patch" },
     [EIcon.Typescript]: {
         fileExtensions: "ts,cts,mts",
         languageIds: "typescript,typescriptreact",
+    },
+    [EIcon.Angular]: {
+        fileNames: "angular.json,.angular-cli.json,angular-cli.json",
     },
     [EIcon.Next]: {
         fileNames: "next.config.js,next.config.ts,next.config.mjs",
