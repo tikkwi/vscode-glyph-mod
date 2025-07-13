@@ -1,0 +1,41 @@
+{
+    "name": "vscode-glyph-mod",
+    "displayName": "Glyph Mod Icon Theme",
+    "description": "A modern icon theme for VS Code with dynamic file association",
+    "version": "1.0.0",
+    "publisher": "tikkwi",
+    "engines": {
+        "vscode": "^1.74.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "icons",
+        "theme",
+        "file icons"
+    ],
+    "contributes": {
+        "iconThemes": [
+            {
+                "id": "glyph-mod",
+                "label": "Glyph Mod",
+                "path": "./theme/glyph-mod-icon-theme.json"
+            }
+        ]
+    },
+    "scripts": {
+        "build": "node src/generate.js",
+        "prepackage": "npm run build",
+        "package": "npx vsce package"
+    },
+    "type": "module",
+    "devDependencies": {
+        "@vscode/vsce": "^2.21.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/your-username/vscode-glyph-mod.git"
+    },
+    "license": "MIT"
+}
