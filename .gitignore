@@ -2,3 +2,6 @@ icons_dark/
 icons_light/
 theme/
 *.vsix
+test.svg
+.DS_Store
+node_modules/

@@ -1,0 +1,13 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none"
+    xmlns="http://www.w3.org/2000/svg">
+    <g stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+        <!-- The main 'j' shape, resembling a test tube -->
+        <path d="M 18 14 V 34 a 8 8 0 0 0 16 0 V 14" />
+
+        <!-- The lip of the test tube -->
+        <path d="M 14 14 H 38" />
+
+        <!-- The dot above the 'j', created with a zero-length path and round linecap -->
+        <path d="M 18 8 h 0" />
+    </g>
+</svg>
